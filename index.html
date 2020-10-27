@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/406da18a0b.js" crossorigin="anonymous" defer ></script>
     <title>Reservia</title>
 </head>
 <body>
@@ -25,6 +25,13 @@
         <div class="textIntroduction">
             <h1 class="font-bold">Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
+        </div>
+        <div id="searchBar">
+            <i class="fas fa-map-marker-alt"></i>
+            <input id="searchField" type="text" placeholder="Marseille, France" name="searchField" />
+            <button type="submit" class="btn">
+              <span id="desktopButton">Rechercher</span><span id="mobileButton"><i class="fas fa-search"></i></span>
+            </button>
         </div>
     </section>
     
