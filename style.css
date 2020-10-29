@@ -79,15 +79,13 @@ p{
 }
 
 /*SearchBar*/
-#searchBar{
-    display: flex;
-    flex-grow: 1;
+
+.fa-map-marker-alt{
+    background-color:#F2F2F2;
+    padding: 10px;
+    border-radius: 10px 0 0 10px;
 }
 
-#desktopButton{
-    display: none;
-}
-.fa-map-marker-alt{
-    color: #0065FC;
-    background-color:#F2F2F2 ;
+#searchBar{
+    display: inline-block;
 }
