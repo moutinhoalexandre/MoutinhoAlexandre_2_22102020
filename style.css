@@ -62,13 +62,19 @@ img{
 
 .introduction{
     padding-top: 5px;
-    padding-right: 45px;
+    padding-right: 20px;
     padding-left: 20px;
     text-align: justify;
 }
 
+.textIntroduction{
+    padding-right: 42px;
+    padding-bottom: 15px;
+}
+
 .font-bold{
-    font-size: 21px;
+    margin-bottom: 10px;
+    font-size: 22px;
     font-weight: bold;
 }
 
@@ -82,10 +88,36 @@ p{
 
 .fa-map-marker-alt{
     background-color:#F2F2F2;
-    padding: 10px;
+    padding: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
     border-radius: 10px 0 0 10px;
 }
 
 #searchBar{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border: 2px solid #F2F2F2;
+    border-radius: 15px;
 }
+
+#searchField {
+    flex: 1;
+    padding-left: 15px;
+    border: none;
+    text-align: left;
+    }
+
+input::placeholder{
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button {
+    color: white;
+    background-color: #0065FC;
+    border: none;
+    padding: 15px;
+    border-radius: 12px;
+    }
