@@ -8,6 +8,7 @@
     <title>Reservia</title>
 </head>
 <body>
+
     <!--Header-->
     <header>
         <img src="picture/logo/Reservia.svg" alt="Reservia">
@@ -20,19 +21,31 @@
         </div>
     </header>
 
-    
+        <!-- Main content heading -->
     <section class="introduction">
         <div class="textIntroduction">
             <h1 class="font-bold">Trouvez votre hébergement pour des vacances de rêve</h1>
             <p>En plein centre ville ou en pleine nature</p>
         </div>
-        <div id="searchBar">
+        <form id="searchBar">
             <i class="fas fa-map-marker-alt"></i><!-- @whitespace
             --><input id="searchField" type="text" placeholder="Marseille, France" name="searchField" /><!-- @whitespace
---><button type="submit" class="button"><!-- @whitespace
+            --><button type="submit" class="button"><!-- @whitespace
             --><div hidden id="desktopButton">Rechercher</div><span id="mobileButton"><i class="fas fa-search fa-1.5x"></i></span>
             </button>
-        </div>
+        </form>
+
+        <!--Filter-->
+            <section class="FilterWrapper">
+                <p class="FilterTitle">Filtres</p>
+                <a href="#"><filter class="FilterFilter"><i class="fas fa-money-bill-wave"></i><span class="FilterText"> Économique</span></filter></a>
+                <a href="#"><filter class="FilterFilter"><i class="fas fa-child"></i><span class="FilterText"> Familial</span></filter></a>
+                <a href="#"><filter class="FilterFilter"><i class="fas fa-heart"></i><span class="FilterText"> Romantique</span></filter></a>
+                <a href="#"><filter class="FilterFilter"><i class="fas fa-dog"></i><span class="FilterText"> Animaux autorisés</span></filter></a>
+            </section>
+            <footer class="FilterFooter">
+                <p><i class="FilterFooterIcon fas fa-info"></i> Plus de 500 logements sont disponibles dans cette ville</p>
+            </footer>
     </section>
     
 </body>
