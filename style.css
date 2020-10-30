@@ -123,7 +123,27 @@ input::placeholder{
     border-radius: 12px;
 }
 
-Filter
+/*Filter*/
+
+.FilterWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    }
+
 .FilterTitle {
     font-weight: bold;
+    margin-right: 200px;
+}
+
+.FilterFilter{
+    display: inline-block;
+    border: 2px solid #F2F2F2;
+
+}
+
+.FilterWrapper .fas{
+    color: #0065FC;
+    background-color:#F2F2F2;
+    padding: 15px;
+    border-radius: 20px;
 }
