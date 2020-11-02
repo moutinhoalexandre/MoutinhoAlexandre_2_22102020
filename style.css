@@ -7,20 +7,28 @@ body{
     box-sizing: border-box;
     margin: 0;
 }
+
 a{
     text-decoration: none;
 }
+
+li{
+    list-style-type: none;
+}
+
+ul{
+    padding-left: 0px;
+}
+
 
 /*header*/
 
 header{
     padding: 0;
     padding-top: 30px;
-}
-
-.selection{
     display: flex;
-    flex-wrap: wrap-reverse; 
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .headerNav{
@@ -35,6 +43,7 @@ header{
     font-size: 16px;
     border-bottom: 3px solid #F2F2F2;
     padding-bottom: 15px;
+    color: black;
 
 }
 .headerNavLink:hover{
@@ -43,17 +52,16 @@ header{
 }
 
 .headerSignup{
-    width: 100%; 
+    width: 50%; 
     text-align: right;
     font-size: 16px;
     font-weight: bold;
     color: #0065FC;
-    padding-top: 15px;
+    padding-top: 20px;
     padding-right: 20px;
 }
 
 img{
-    position: fixed;
     padding-left: 20px;
 
 }
@@ -120,6 +128,8 @@ input::placeholder{
     background-color: #0065FC;
     border: none;
     padding: 15px;
+    padding-left: 18px;
+    padding-right: 18px;
     border-radius: 12px;
 }
 
@@ -128,7 +138,7 @@ input::placeholder{
 .FilterWrapper {
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
     }
 
 .FilterTitle {
@@ -146,7 +156,7 @@ input::placeholder{
 
 .FilterWrapper .fas{
     color: #0065FC;
-    background-color:#F2F2F2;
+    background-color:#DEEBFF;
     padding: 12px;
     border-radius: 100%;
     width: 20px;
@@ -157,8 +167,13 @@ input::placeholder{
     align-items: center;
 }
 
+.fa, .fas {
+    margin: -2px;
+}
+
 .FilterText{
     padding: 10px;
+    padding-right: 18px;
     color: black;
     font-weight: bold;
 }
@@ -172,19 +187,35 @@ input::placeholder{
 
 .FilterFooter .fas{
     color:  #0065FC;
+    font-size: 11px;
     border: 2px solid #F2F2F2;
-    padding: 5px;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding: 2.5px;
+    padding-left: 4px;
+    padding-right: 4px;
     width: 13px;
     height: 13px;
     border-radius: 50%;
-    margin-right: 10px;
-    margin-bottom: 15px;
     text-align: center;
 }
 
 .FilterFooterText{
-    margin-top: 7px;
+    margin-top: 1px;
+    padding-left: 10px;
+    font-size: 15px;
+}
+
+/*Footer*/
+
+footer{
+    padding: 20px;
+    padding-top: 40px;
+    background-color: #F2F2F2;
+}
+
+h2{
+    font-size: 18px;
+}
+
+li{
     font-size: 15px;
 }
