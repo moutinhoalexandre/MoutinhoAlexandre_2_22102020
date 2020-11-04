@@ -121,6 +121,7 @@ p{
 input::placeholder{
     font-weight: bold;
     font-size: 15px;
+    color:black;
 }
 
 .button {
@@ -204,16 +205,41 @@ input::placeholder{
     font-size: 15px;
 }
 
+/*Selection*/
+
+.Selection{
+    background-color: #F2F2F2;
+}
+
+.HostingPopular{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+
+.TheMostPopularsText{
+    margin: 20px 0;
+}
+
+.HostingPopularIcon{
+    margin: 20px 0;
+}
+
+
 /*Footer*/
 
 footer{
     padding: 20px;
-    padding-top: 40px;
     background-color: #F2F2F2;
+}
+
+.FooterSubTittle{
+    padding: 5px 0;
 }
 
 h2{
     font-size: 18px;
+    margin: 30px 0 15px 0;
 }
 
 li{
