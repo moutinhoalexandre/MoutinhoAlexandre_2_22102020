@@ -1,6 +1,6 @@
 /*Mobile First*/
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
 
 body{
     font-family: 'Raleway', sans-serif;
@@ -25,7 +25,7 @@ ul{
 
 header{
     padding: 0;
-    padding-top: 30px;
+    padding-top: 20px;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -78,6 +78,7 @@ img{
 .textIntroduction{
     padding-right: 40px;
     padding-bottom: 15px;
+    padding-top: 10px;
 }
 
 .font-bold{
@@ -95,10 +96,13 @@ img{
 /*SearchBar*/
 
 .fa-map-marker-alt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
     background-color:#F2F2F2;
-    padding: 15px;
-    padding-left: 18px;
-    padding-right: 18px;
+    padding: 15px 20px 15px 20px;
+    
     border-radius: 10px 0 0 10px;
 }
 
@@ -109,6 +113,7 @@ img{
     border: 2px solid #F2F2F2;
     border-radius: 15px;
     margin-bottom: 35px;
+    margin-top: 6px;
 }
 
 #searchField {
@@ -122,6 +127,7 @@ input::placeholder{
     font-weight: bold;
     font-size: 15px;
     color:black;
+    opacity: 1 ;
 }
 
 .button {
@@ -309,7 +315,7 @@ div.PopularCard:nth-child(4) > a:nth-child(1) > figure:nth-child(1) > img:nth-ch
     /*City Card*/
 
 .CityCard{
-    box-shadow: 0px 5px 13px 5px #F2F2F2;
+    box-shadow: 0 0 15px lightgray;
     border-radius: 15px;
     margin-bottom: 5px;
 }
@@ -352,7 +358,53 @@ div.PopularCard:nth-child(4) > a:nth-child(1) > figure:nth-child(1) > img:nth-ch
     color: #0065FC;
 }
 
+.SeeMoreText{
+    font-weight: bold;
+    margin-bottom: 0px;
+}
 
+/* Activities */
+
+.HostingActivities{
+    padding: 0 20px;
+    background-color: white;
+}
+
+.ActivitiesHeadText{
+    margin: 14px 0 20px ;
+    font-size: 21px;
+}
+
+/* Activities Card */
+
+.Single, .CardActivitiesTwin{
+    box-shadow: 0 0 15px lightgray;
+    border-radius: 15px;
+    margin-bottom: 5px;
+}
+
+.ActivitiesSelectionCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+    margin: 0;
+    border: 5px solid white;
+    border-radius: 20px;
+}
+
+.PictureActivities{
+    object-fit: cover;
+    height: 135px;
+    padding: 0;
+    border-radius: 12px 12px 0 0
+}
+
+.ActivitiesTextTitle{
+    color: black;
+    margin: 15px 0 15px 15px;
+    font-size: 16px;
+}
 /*Footer*/
 
 footer{
