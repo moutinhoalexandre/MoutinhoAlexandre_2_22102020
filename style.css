@@ -25,14 +25,14 @@ ul{
 
 header{
     padding: 0;
-    padding-top: 20px;
+    padding-top: 1.4rem;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
 .headerNav{
-    padding-top: 30px;
+    padding-top: 1.8rem;
     display: flex;
     flex-grow: 1;
 }
@@ -40,29 +40,28 @@ header{
 .headerNavLink{
     width: 100%;
     text-align: center;    
-    font-size: 16px;
-    border-bottom: 3px solid #F2F2F2;
-    padding-bottom: 15px;
+    font-size: 1rem;
+    border-bottom: 0.2rem solid #F2F2F2;
+    padding-bottom: 0.9rem;
     color: black;
 
 }
 .headerNavLink:hover{
-    border-bottom: 3px solid #0065FC ;
+    border-bottom: 0.2rem solid #0065FC ;
     color: #0065FC;
 }
 
 .headerSignup{
     width: 50%; 
     text-align: right;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: bold;
     color: #0065FC;
-    padding-top: 20px;
-    padding-right: 20px;
+    padding: 1.2em 1.3em 0 0;
 }
 
 img{
-    padding-left: 20px;
+    padding-left: 1.3em;
 
 }
 
@@ -72,13 +71,11 @@ img{
     padding-top: 5px;
     padding-right: 20px;
     padding-left: 20px;
-    text-align: justify;
+    margin-bottom: 36px;
 }
 
 .textIntroduction{
-    padding-right: 40px;
-    padding-bottom: 15px;
-    padding-top: 10px;
+    padding: 7px 40px 13px 0;
 }
 
 .font-bold{
@@ -89,43 +86,42 @@ img{
 
 .textIntroduction p{
     font-size: 16px;
-    padding-top: 0em;
+    padding-top: 0.3em;
     margin-top: 0em;
 }
 
 /*SearchBar*/
 
-.fa-map-marker-alt{
+.fa-map-marker-alt::before{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
     font-size: 1.1em;
     background-color:#F2F2F2;
-    padding: 15px 20px 15px 20px;
-    
-    border-radius: 10px 0 0 10px;
+    padding: 18px 20px 18px 20px;
+    border-radius: 20px 0 0 20px;
+    overflow: hidden;
 }
 
 #searchBar{
     display: flex;
     justify-content: space-between;
-    width: 100%;
+    width: 99%;
     border: 2px solid #F2F2F2;
     border-radius: 15px;
-    margin-bottom: 35px;
-    margin-top: 6px;
+    margin-bottom: 31px;
+    margin-top: 3px;
 }
 
 #searchField {
     flex: 1;
-    padding-left: 15px;
+    padding-left: 17px;
     border: none;
     text-align: left;
     }
 
 input::placeholder{
     font-weight: bold;
-    font-size: 15px;
+    font-size: 1.1rem;
     color:black;
     opacity: 1 ;
 }
@@ -137,8 +133,16 @@ input::placeholder{
     padding: 15px;
     padding-left: 18px;
     padding-right: 18px;
-    border-radius: 12px;
+    border-radius: 15px;
+    font-size: 1em;
 }
+
+.fa-search {
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    }
 
 /*Filter*/
 
@@ -151,20 +155,24 @@ input::placeholder{
 .FilterTitle {
     font-weight: bold;
     margin-right: 200px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 1.1rem;
+    padding-left: 2px;
 }
 
 .FilterFilter{
     display: inline-flex;
     border: 2px solid #F2F2F2;
     margin-bottom: 15px;
-    margin-right: 15px;
+    margin-right: 8px;
     border-radius: 25px;
 }
 
 .FilterWrapper .fas{
     color: #0065FC;
     background-color:#DEEBFF;
-    padding: 12px;
+    padding: 15px;
     border-radius: 100%;
     width: 20px;
     height: 20px;
@@ -179,7 +187,8 @@ input::placeholder{
 }
 
 .FilterText{
-    padding: 10px;
+    align-self: center;
+    padding-left: 12px;
     padding-right: 18px;
     color: black;
     font-weight: bold;
@@ -188,7 +197,6 @@ input::placeholder{
 .FilterFooter{
     display: flex;
     flex-grow: 1;
-    margin-right: 20px;
 }
 
 
@@ -196,9 +204,7 @@ input::placeholder{
     color:  #0065FC;
     font-size: 11px;
     border: 2px solid #F2F2F2;
-    padding: 2.5px;
-    padding-left: 4px;
-    padding-right: 4px;
+    padding: 5px 7px;
     width: 13px;
     height: 13px;
     border-radius: 50%;
@@ -212,8 +218,9 @@ input::placeholder{
 
 .FilterFooterText{
     margin-top: 1px;
-    padding-left: 10px;
-    font-size: 15px;
+    padding-left: 13px;
+    font-size: 1rem;
+    text-align: justify;
 }
 
 /*Selection*/
@@ -224,6 +231,10 @@ input::placeholder{
 
     /*Popular Hosting*/
 
+.HostingPopular{
+    margin-bottom: 37px;
+}
+
 .HostingPopularText{
     display: flex;
     flex-wrap: wrap;
@@ -232,8 +243,8 @@ input::placeholder{
 }
 
 .TheMostPopularsText{
-    margin: 20px 0;
-    font-size: 21px;
+    margin: 16px 0;
+    font-size: 1.4rem;
 }
 
 .HostingPopularIcon{
@@ -243,6 +254,7 @@ input::placeholder{
 
 .PopularCard{
     margin: 10px 0 10px 0;
+    
 }
 
 .Popular{
@@ -256,35 +268,40 @@ input::placeholder{
 
 .ImagePopular{
     object-fit: cover;
-    width: 38%;
-    height: 130px;
+    width: 39%;
+    height: 134px;
     padding: 0;
     border-radius: 15px 0 0 15px;
 }
 
 .PopularText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-size: 14px;
-    padding: 0 20px;
-    padding-right: 40px;
+    padding: 10px 20px;
+    padding-right: 35px;
     color: black;
 
 }
 
 .PopularTextTitle{
-    margin: 15px 0 5px 0;
     color: black;
+    margin: 0;
+    margin-bottom: 7px;
 }
 
 .PopularTextPrice{
+    font-weight: normal;
     font-size: 14px;
     text-align: justify;
-    margin-top: 5px;
-    
+    margin: 0;
+       
 }
 
 .FullStars{
-    font-size: 12px;
-    margin-top: 35px;
+    margin: 0;
+    font-size: 11px;
     color: #0065FC;
 }
 
@@ -309,7 +326,7 @@ div.PopularCard:nth-child(4) > a:nth-child(1) > figure:nth-child(1) > img:nth-ch
 
 .CityText{
     margin: 14px 0 20px ;
-    font-size: 21px;
+    font-size: 22px;
 }
 
     /*City Card*/
@@ -317,7 +334,7 @@ div.PopularCard:nth-child(4) > a:nth-child(1) > figure:nth-child(1) > img:nth-ch
 .CityCard{
     box-shadow: 0 0 15px lightgray;
     border-radius: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .City{
@@ -332,30 +349,35 @@ div.PopularCard:nth-child(4) > a:nth-child(1) > figure:nth-child(1) > img:nth-ch
 
 .ImageCity{
     object-fit: cover;
-    height: 110px;
+    height: 113px;
     padding: 0;
     border-radius: 15px 15px 0 0;
 }
 
+.CitySelectionText{
+    padding: 5px 10px;
+}
+
 .CityTextTitle{
     color: black;
-    margin: 5px 0;
+    margin: 2px 0;
     font-size: 16px;
 }
 
 .CityTextPrice{
     color: black;
-    margin: 5px 0;
+    margin: 7px 0;
     font-size: 14px;
 }
 
 .FullStarsCity{
-    margin: 5px 0;
-    font-size: 10px;
+    padding: 0;
+    font-size: 12px;
 }
 
 .FullStarsCity .blue{
     color: #0065FC;
+    margin: 0 -1px;
 }
 
 .SeeMoreText{
