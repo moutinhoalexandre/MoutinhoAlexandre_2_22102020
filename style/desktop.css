@@ -1,0 +1,56 @@
+/* Desktop */
+
+@media screen and (min-width: 800px){
+
+}
+
+body{
+    margin: 0 30px;
+    padding: 0;
+}
+
+/* Header */
+header{
+    display: flex;
+    align-items: center;
+    padding-top: 0;
+}
+
+.ReserviaImg{
+    display: flex;
+    flex: 1 65%;
+}
+
+img{
+    padding-top: 44px;
+    margin-left: 3px;
+}
+
+.headerSignup{
+    order: 4;
+    padding: 0;
+    padding-top: 27px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    width: 117px;
+    color: #0065FC;
+    font-weight: 600;
+}
+
+.headerNav{
+    padding: 0;
+    padding-bottom: 19px;
+    align-items: center;
+ 
+    }
+
+.headerNavLink{
+    padding: 0;
+    padding-top: 45px;
+    width: 155px;
+    font-weight: 500;
+    text-align: center;
+    border-top: 3px blue solid;
+    border-bottom: 3px transparent solid;
+}
