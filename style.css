@@ -169,6 +169,11 @@ input::placeholder{
     border-radius: 25px;
 }
 
+.FilterFilter:hover{  
+    background-color: #0065FC;
+    color: #DEEBFF;
+}
+
 .FilterWrapper .fas{
     color: #0065FC;
     background-color:#DEEBFF;
@@ -227,6 +232,7 @@ input::placeholder{
 
 .Selection{
     background-color: #F2F2F2;
+    margin-bottom: 47px;
 }
 
     /*Popular Hosting*/
@@ -334,7 +340,7 @@ div.PopularCard:nth-child(4) > a:nth-child(1) > figure:nth-child(1) > img:nth-ch
 .CityCard{
     box-shadow: 0 0 15px lightgray;
     border-radius: 15px;
-    margin-bottom: 10px;
+    margin-bottom: 13px;
 }
 
 .City{
@@ -381,8 +387,10 @@ div.PopularCard:nth-child(4) > a:nth-child(1) > figure:nth-child(1) > img:nth-ch
 }
 
 .SeeMoreText{
+    font-size: 1.1rem;
     font-weight: bold;
     margin-bottom: 0px;
+    margin-top: 33px;
 }
 
 /* Activities */
@@ -393,8 +401,8 @@ div.PopularCard:nth-child(4) > a:nth-child(1) > figure:nth-child(1) > img:nth-ch
 }
 
 .ActivitiesHeadText{
-    margin: 14px 0 20px ;
-    font-size: 21px;
+    margin: 30px 0 20px ;
+    font-size: 1.4rem;
 }
 
 /* Activities Card */
@@ -402,7 +410,8 @@ div.PopularCard:nth-child(4) > a:nth-child(1) > figure:nth-child(1) > img:nth-ch
 .Single, .CardActivitiesTwin{
     box-shadow: 0 0 15px lightgray;
     border-radius: 15px;
-    margin-bottom: 5px;
+    margin-bottom: 21px;
+    margin-top: 6px;
 }
 
 .ActivitiesSelectionCard{
@@ -410,8 +419,7 @@ div.PopularCard:nth-child(4) > a:nth-child(1) > figure:nth-child(1) > img:nth-ch
     flex-direction: column;
     justify-content: space-between;
     background-color: white;
-    margin: 0;
-    border: 5px solid white;
+    margin: 0;  
     border-radius: 20px;
 }
 
@@ -424,19 +432,27 @@ div.PopularCard:nth-child(4) > a:nth-child(1) > figure:nth-child(1) > img:nth-ch
 
 .ActivitiesTextTitle{
     color: black;
-    margin: 15px 0 15px 15px;
+    margin: 19px 0 19px 19px;
     font-size: 16px;
 }
 /*Footer*/
 
 footer{
     padding: 20px;
+    padding-left: 29px;
+    padding-top: 16px;
     background-color: #F2F2F2;
+}
+
+.FooterLink{
+    margin-bottom: 37px;
 }
 
 
 .FooterSubTittle{
     padding: 5px 0;
+    font-size: 1rem;
+    
 }
 
 .footerLink, h2{
