@@ -126,6 +126,10 @@ input::placeholder{
     opacity: 1 ;
 }
 
+#desktopButton{
+    display: none;
+}
+
 .button {
     color: white;
     background-color: #0065FC;
@@ -423,7 +427,7 @@ div.PopularCard:nth-child(4) > a:nth-child(1) > figure:nth-child(1) > img:nth-ch
     border-radius: 20px;
 }
 
-.PictureActivities{
+.PictureActivitiesTwin, .PictureActivitiesSingle{
     object-fit: cover;
     height: 135px;
     padding: 0;
