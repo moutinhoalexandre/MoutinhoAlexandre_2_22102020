@@ -139,17 +139,18 @@
 
     .HostingCity{
         order: -1;
+        box-sizing: border-box;
         background-color: #F2F2F2;
-        width: 62%;
-        margin-right: 15px;
+        width: 64%;
         padding: 15px;
         border-radius: 20px 20px 20px 20px;
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-        margin-left: 19px;
-        margin-right: 39px;
-        padding-right: 10px;
+        margin-left: 18px;
+        margin-right: 34px;
+        padding-right: 34px;
+        padding-left: 19px;
     }
 
     .HostingCityText{
@@ -157,13 +158,20 @@
         font-size: 1.4em;
         font-weight: bold;
         flex: 1 0 100%;
+        margin-top: 13px;
+        margin-left: 26px;
+        margin-bottom: 4px;
+    }
+
+    .CityText {
+        padding-left: 24px;
+        padding-top: 0px;
     }
 
     .CityCard{
         background-color: #F2F2F2;
-        width: 30%;
+        width: 29.7%;
         margin-left: 15px;
-        
         border-radius: 20px 20px 20px 20px;
     }
     .ImageCity{
@@ -177,9 +185,11 @@
     /* Hosting Popular  */
 
     .HostingPopular{
-        width: 30%;
+        width: 30.5%;
+        box-sizing: border-box;
         background-color: #F2F2F2;
         border-radius: 20px 20px 20px 20px;
+        margin-left: 3px;
     }
 
     .ImagePopular{
@@ -220,9 +230,9 @@
         display: flex;
     }
 
-    .AboutUs{
+    /* .AboutUs{ à compléter
         
-    }
+    } */
 
 }
 
