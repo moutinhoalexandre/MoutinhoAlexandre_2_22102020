@@ -3,12 +3,14 @@
 
 <head>
     <meta charset="UTF-8">
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/tablet.css">
-    <link rel="stylesheet" href="style/desktop.css">
+    <link rel="stylesheet" href="style/tablet.css" media="screen and (max-width: 800px) and (min-width: 426px)">
+    <link rel="stylesheet" href="style/desktop.css" media="screen and (min-width: 800px)">
     <script src="https://kit.fontawesome.com/406da18a0b.js" crossorigin="anonymous" defer></script>
     <title>Reservia</title>
+    <meta name="description" content="Trouvez votre hébergement pour des vacances de rêve">
 </head>
 
 <body>
@@ -48,12 +50,12 @@
         <section class="FilterWrapper">
             <p class="FilterTitle">Filtres</p>
             <a href="#">
-                <filter class="FilterFilter"><i class="fas fa-money-bill-wave max-auto"></i><span class="FilterText">Économique</span></filter>
+                <filter class="FilterFilter" tabindex="0"><i class="fas fa-money-bill-wave max-auto"></i><span class="FilterText">Économique</span></filter>
             </a>
             <a href="#">
-                <filter class="FilterFilter"><i class="fas fa-child  max-auto"></i><span class="FilterText">Familial</span></filter>
+                <filter class="FilterFilter" tabindex="0"><i class="fas fa-child  max-auto"></i><span class="FilterText">Familial</span></filter>
             </a>
-            <a href="#">
+            <a class="focusable" href="#">
                 <filter class="FilterFilter"><i class="fas fa-heart max-auto"></i><span class="FilterText">Romantique</span></filter>
             </a>
             <a href="#">
