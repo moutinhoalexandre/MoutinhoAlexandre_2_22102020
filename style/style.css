@@ -43,10 +43,16 @@ header{
     text-align: center;    
     font-size: 1rem;
     border-bottom: 0.2rem solid #F2F2F2;
-    padding-bottom: 0.9rem;
+    padding-bottom: 14px;
     color: black;
-
 }
+.Hosting{
+   padding-left: 2px; 
+}
+.Activity{
+    padding-right: 4px;
+}
+
 .headerNavLink:hover{
     border-bottom: 0.2rem solid #0065FC ;
     color: #0065FC;
@@ -62,13 +68,11 @@ header{
 }
 
 .ReserviaImg {
-    padding-top: 2px;
+    padding-top: 3px;
+    padding-left: 20px;
     }
     
-img{
-    padding-left: 1.3em;
 
-}
 
 /*Introduction*/
 
@@ -91,7 +95,7 @@ img{
 
 .textIntroduction p{
     font-size: 16px;
-    padding-top: 2x;
+    padding-top: 2px;
     margin-top: 0em;
 }
 
@@ -99,7 +103,6 @@ img{
 
 .fa-map-marker-alt::before{
     display: flex;
-    
     font-size: 1.1em;
     background-color:#F2F2F2;
     padding: 18px 20px 18px 20px;
@@ -163,6 +166,7 @@ input::placeholder{
     }
 
 .FilterTitle {
+    flex: 1 0 100%;
     font-weight: bold;
     margin-right: 200px;
     margin-top: 0;
@@ -174,8 +178,8 @@ input::placeholder{
 .FilterFilter{
     display: inline-flex;
     border: 2px solid #F2F2F2;
-    margin-bottom: 15px;
-    margin-right: 8px;
+    margin-bottom: 14px;
+    margin-right: 9.4px;
     border-radius: 25px;
 }
 
@@ -237,8 +241,9 @@ input::placeholder{
 }
 
 .FilterFooterText{
-    padding-right: 2px;
-    padding-left: 13px;
+    padding-right: 3px;
+    padding-left: 12px;
+    padding-top: 3px;
     font-size: 1rem;
     text-align: justify;
 }
@@ -289,6 +294,7 @@ input::placeholder{
 .ImagePopular{
     object-fit: cover;
     width: 39%;
+    min-width: 39%;
     height: 134px;
     padding: 0;
     border-radius: 15px 0 0 15px;
@@ -301,6 +307,8 @@ input::placeholder{
     font-size: 14px;
     padding: 10px 20px;
     padding-right: 35px;
+    padding-top: 11px;
+    padding-bottom: 8px;
     color: black;
 
 }
@@ -327,6 +335,7 @@ input::placeholder{
 
 .fa-star{
     margin: 0;
+    margin-left: -1px;
 }
 
 .grey{
@@ -343,7 +352,8 @@ input::placeholder{
 }
 
 .CityText{
-    margin: 14px 0 20px ;
+    margin: 14px 0 18px ;
+    padding-top: 2px;
     font-size: 22px;
 }
 
@@ -351,8 +361,9 @@ input::placeholder{
 
 .CityCard{
     box-shadow: 0 0 15px lightgray;
-    border-radius: 15px;
-    margin-bottom: 13px;
+    border-radius: 18px;
+    margin-bottom: 14px;
+   
 }
 
 .City{
@@ -373,7 +384,7 @@ input::placeholder{
 }
 
 .CitySelectionText{
-    padding: 5px 10px;
+    padding: 8px 9px 2px 11px;
 }
 
 .CityTextTitle{
@@ -384,7 +395,7 @@ input::placeholder{
 
 .CityTextPrice{
     color: black;
-    margin: 7px 0;
+    margin: 6px 0 7px 0;
     font-size: 14px;
 }
 
@@ -395,14 +406,14 @@ input::placeholder{
 
 .FullStarsCity .blue{
     color: #0065FC;
-    margin: 0 -1px;
+    margin: 0 -1.2px;
 }
 
 .SeeMoreText{
     font-size: 1.1rem;
     font-weight: bold;
     margin-bottom: 0px;
-    margin-top: 33px;
+    margin-top: 34px;
 }
 
 /* Activities */
@@ -421,7 +432,7 @@ input::placeholder{
 
 .Single, .CardActivitiesTwin{
     box-shadow: 0 0 15px lightgray;
-    border-radius: 15px;
+    border-radius: 25px;
     margin-bottom: 21px;
     margin-top: 6px;
 }
@@ -439,12 +450,12 @@ input::placeholder{
     object-fit: cover;
     height: 135px;
     padding: 0;
-    border-radius: 12px 12px 0 0
+    border-radius: 19px 19px 0 0
 }
 
 .ActivitiesTextTitle{
     color: black;
-    margin: 19px 0 19px 19px;
+    margin: 20px 0 18px 20px;
     font-size: 16px;
 }
 /*Footer*/
