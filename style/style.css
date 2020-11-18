@@ -11,6 +11,7 @@ body{
 
 a{
     text-decoration: none;
+
 }
 
 li{
@@ -188,9 +189,14 @@ input::placeholder{
     color: #DEEBFF;
 }
 
-.focusable:focus .FilterFilter{  
+.Overview:focus .FilterFilter{  
     background-color: #0065FC;
     color: #DEEBFF;
+}
+
+.Overview:focus .FilterText{
+    color: #DEEBFF;
+
 }
 
 .FilterWrapper .fas{
@@ -342,8 +348,6 @@ input::placeholder{
     color: #F2F2F2;
 }
 
-
-
     /*City Hosting*/
 
 .HostingCity{
@@ -485,4 +489,8 @@ footer{
 
 li{
     font-size: 15px;
+}
+
+.Support{
+    margin-top: 47px;
 }
