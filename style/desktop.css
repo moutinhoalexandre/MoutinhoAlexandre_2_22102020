@@ -17,8 +17,8 @@
     }
 
     .ReserviaImg{
-        padding-top: 36px;
-        padding-left: 3px;
+        padding-top: 38px;
+        padding-left: 22px;
     }
 
     .headerNav{
@@ -29,11 +29,15 @@
     }
 
     .headerNavLink{
-        width: 160px;
+        width: 154px;
         padding-bottom: 28px;
         padding-top: 45px;
         border-top: 3px transparent solid;
         border-bottom: 3px transparent solid;
+    }
+
+    .Hosting{
+        padding-left: 0px;
     }
 
     .headerNavLink:hover{
@@ -61,6 +65,10 @@
         padding-bottom: 0;
     }
 
+    .font-bold {
+        padding-left: 2px;
+        }
+
     .textIntroduction > p{
         margin-left: 2px;
         padding-top: 0;
@@ -73,7 +81,13 @@
     /*SearchBar*/
 
     #searchBar{
-        width: 425px;
+        width: 417px;
+        height: 49px;
+        margin-left: 4px;
+        margin-top: 18px;
+        margin-bottom: 30px;
+        border-bottom-width: 2px;
+        border-top-width: 2px;
     }
 
     #mobileButton{
@@ -88,18 +102,31 @@
 
     }
 
+    .fa-map-marker-alt::before {
+        overflow: hidden;
+        height: 17px;
+    }
+
+    #searchField {
+        padding-top: 0px;
+    }
+
     .button{
         border-radius: 0 15px 15px 0;
         justify-content: center;
-        padding-top: 15px;
-        padding-bottom: 15x;
+        padding-left: 18px;
+        padding-right: 15px;
+        padding-bottom: 15px;
+        padding-top: 14px;
         margin-top: -1px;
         margin-bottom: -1px;
+        letter-spacing: 0.5px;
     }
 
     /* Filter */
 
     .FilterTitle {
+        flex: none;
         padding-top: 12px;
         padding-left: 12px;
         margin-right: 32px;
@@ -108,23 +135,35 @@
     .FilterText{
         font-size: 1.1rem;
         padding-left: 15px;
-        padding-right: 20px;
+        padding-right: 24px;
     }
 
     .FilterFilter{
-        margin-right: 27px;
-
+        margin-right: 24px;
     }
 
+    .FilterWrapper .fas {
+        font-size: 1.2rem;
+    }
+
+    .FilterFooter .fas {
+        padding: 4px;
+    }
+    
     .FilterFooter{
-        margin-top: 20px;
-        margin-left: 7px;
+        margin-left: 10px;
+        margin-top: 21px;
     }
 
     .FilterFooterIcon{
         padding-right: 5px;
         padding-left: 5px;
         }
+
+    .FilterFooterText {
+        padding-left: 12px;
+        padding-top: 2px;
+    }
 
     /*Selection*/ 
 
@@ -173,12 +212,33 @@
         background-color: #F2F2F2;
         width: 29.7%;
         margin-left: 15px;
+        margin-bottom: 30px;
         border-radius: 20px 20px 20px 20px;
     }
     .ImageCity{
         display: block;
         border-radius: 15px 15px 0px 0px;
         overflow: hidden; 
+    }
+
+    .CityTextTitle{
+        margin-bottom: 0;
+        margin-top: 4px;
+    }
+
+    .CityTextPrice{
+        margin-top: 5px;
+    }
+
+    .SeeMore{
+        display: flex;
+        flex: 1 0 100%;
+    }
+
+    .SeeMoreText{
+        margin-top: 11px;
+        padding-left: 28px;
+        margin-bottom: 28px;
     }
 
     /* Hosting Popular  */
