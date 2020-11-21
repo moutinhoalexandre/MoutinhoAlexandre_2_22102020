@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/tablet.css" media="screen and (max-width: 800px) and (min-width: 426px)">
-    <link rel="stylesheet" href="style/desktop.css" media="screen and (min-width: 800px)">
+    <link rel="stylesheet" href="style/mobile.css">
+    <link rel="stylesheet" href="style/tablet.css" media="screen and (max-width: 1260px) and (min-width: 630px)">
+    <link rel="stylesheet" href="style/desktop.css" media="screen and (min-width: 1260px)">
     <script src="https://kit.fontawesome.com/406da18a0b.js" crossorigin="anonymous" defer></script>
     <title>Reservia</title>
     <meta name="description" content="Trouvez votre hébergement pour des vacances de rêve">
@@ -41,27 +41,27 @@
             --><button type="submit" class="button">
                 <!-- @whitespace
             -->
-                <div id="desktopButton">Rechercher</div><span id="mobileButton"><i
+                <span id="desktopButton">Rechercher</span><span id="mobileButton"><i
                         class="fas fa-search fa-1.5x"></i></span>
             </button>
         </form>
 
         <!--Filter-->
-        <section class="FilterWrapper">
+        <div class="FilterWrapper">
             <p class="FilterTitle">Filtres</p>
             <a class="Overview" href="#">
-                <filter class="FilterFilter" ><i class="fas fa-money-bill-wave max-auto"></i><span class="FilterText">Économique</span></filter>
+                <div class="FilterFilter" ><i class="fas fa-money-bill-wave max-auto"></i><span class="FilterText">Économique</span></div>
             </a>
             <a class="Overview" href="#">
-                <filter class="FilterFilter"><i class="fas fa-child  max-auto"></i><span class="FilterText">Familial</span></filter>
+                <div class="FilterFilter"><i class="fas fa-child  max-auto"></i><span class="FilterText">Familial</span></div>
             </a>
             <a class="Overview" href="#">
-                <filter class="FilterFilter"><i class="fas fa-heart max-auto"></i><span class="FilterText">Romantique</span></filter>
+                <div class="FilterFilter"><i class="fas fa-heart max-auto"></i><span class="FilterText">Romantique</span></div>
             </a>
             <a class="Overview" href="#">
-                <filter class="FilterFilter"><i class="fas fa-dog max-auto"></i><span class="FilterText"> Animaux autorisés</span></filter>
+                <div class="FilterFilter"><i class="fas fa-dog max-auto"></i><span class="FilterText"> Animaux autorisés</span></div>
             </a>
-        </section>
+        </div>
         <aside class="FilterFooter">
             <i class="FilterFooterIcon fas fa-info fa-xs"></i> <span class="FilterFooterText">Plus de 500 logements sont disponibles dans cette ville</span>
         </aside>
@@ -165,6 +165,7 @@
             <!-- City Card 1-->
 
             <div class="CityCard">
+            
                 <a class="CitySelection" href="#">
                     <figure class="City">
                         <img class="ImageCity" src="picture/Hosting/Small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
