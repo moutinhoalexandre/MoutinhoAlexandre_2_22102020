@@ -33,13 +33,13 @@ header{
     flex-wrap: wrap;
 }
 
-.headerNav{
+.HeaderNav{
     padding-top: 24px;
     display: flex;
     flex-grow: 1;
 }
 
-.headerNavLink{
+.HeaderNavLink{
     width: 100%;
     text-align: center;    
     font-size: 1rem;
@@ -54,12 +54,12 @@ header{
     padding-right: 4px;
 }
 
-.headerNavLink:hover{
+.HeaderNavLink:hover{
     border-bottom: 0.2rem solid #0065FC ;
     color: #0065FC;
 }
 
-.headerSignup{
+.HeaderSignup{
     width: 50%; 
     text-align: right;
     font-size: 1em;
@@ -77,14 +77,14 @@ header{
 
 /*Introduction*/
 
-.introduction{
+.Introduction{
     padding-top: 5px;
     padding-right: 20px;
     padding-left: 20px;
     margin-bottom: 36px;
 }
 
-.textIntroduction{
+.IntroductionText{
     padding: 7px 40px 13px 0;
 }
 
@@ -94,7 +94,7 @@ header{
     font-weight: bold;
 }
 
-.textIntroduction p{
+.IntroductionText p{
     font-size: 16px;
     padding-top: 2px;
     margin-top: 0em;
@@ -177,7 +177,7 @@ input::placeholder{
     padding-left: 2px;
 }
 
-.FilterFilter{
+.FilterSelection{
     display: inline-flex;
     border: 2px solid #F2F2F2;
     margin-bottom: 14px;
@@ -185,17 +185,16 @@ input::placeholder{
     border-radius: 25px;
 }
 
-.FilterFilter:focus{  
+.FilterSelection:focus{  
     background-color: #0065FC;
     color: #DEEBFF;
 }
 
-.Overview:focus .FilterFilter{  
-    background-color: #0065FC;
-    color: #DEEBFF;
+.FilterOverview:focus .FilterSelection{  
+    background-color: #0065FC;  
 }
 
-.Overview:focus .FilterText{
+.FilterOverview:focus .FilterText{
     color: #DEEBFF;
 
 }

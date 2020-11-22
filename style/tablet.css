@@ -14,14 +14,14 @@ header{
     padding-left: 22px;
 }
 
-.headerNav{
+.HeaderNav{
     display: flex;
     justify-content: flex-end;
     padding-top: 0px;
 
 }
 
-.headerNavLink{
+.HeaderNavLink{
     width: 154px;
     padding-bottom: 28px;
     padding-top: 45px;
@@ -33,12 +33,12 @@ header{
     padding-left: 0px;
 }
 
-.headerNavLink:hover{
+.HeaderNavLink:hover{
     border-top: 3px blue solid;
     border-bottom: 3px transparent solid;
 }
 
-.headerSignup{
+.HeaderSignup{
     order: 4;
     width: 90px;
     padding-right: 46px;
