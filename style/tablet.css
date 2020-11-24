@@ -1,48 +1,47 @@
 /* Tablet */
 
 /* Header */
-    
-header{
-    display: flex;
-    align-items: center;
-    margin: 0 30px;
-    padding: 0;
+
+header {
+  display: flex;
+  align-items: center;
+  margin: 0 30px;
+  padding: 0;
 }
 
-.ReserviaImg{
-    padding-top: 38px;
-    padding-left: 22px;
+.ReserviaImg {
+  padding-top: 38px;
+  padding-left: 22px;
 }
 
-.HeaderNav{
-    display: flex;
-    justify-content: flex-end;
-    padding-top: 0px;
-
+.HeaderNav {
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 0px;
 }
 
-.HeaderNavLink{
-    width: 154px;
-    padding-bottom: 28px;
-    padding-top: 45px;
-    border-top: 3px transparent solid;
-    border-bottom: 3px transparent solid;
+.HeaderNavLink {
+  width: 154px;
+  padding-bottom: 28px;
+  padding-top: 45px;
+  border-top: 3px transparent solid;
+  border-bottom: 3px transparent solid;
 }
 
-.Hosting{
-    padding-left: 0px;
+.Hosting {
+  padding-left: 0px;
 }
 
-.HeaderNavLink:hover{
-    border-top: 3px blue solid;
-    border-bottom: 3px transparent solid;
+.HeaderNavLink:hover {
+  border-top: 3px blue solid;
+  border-bottom: 3px transparent solid;
 }
 
-.HeaderSignup{
-    order: 4;
-    width: 90px;
-    padding-right: 46px;
-    padding-top: 19px;
+.HeaderSignup {
+  order: 4;
+  width: 90px;
+  padding-right: 46px;
+  padding-top: 19px;
 }
 
 /* Selection */
@@ -50,108 +49,108 @@ header{
 /* Hosting Popular */
 
 .PopularCard {
-    max-width: 400px;
+  max-width: 400px;
 }
 
 .HostingPopular {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 .HostingPopularText {
-    justify-content: center;
-    flex: 1 0 100%;
+  justify-content: center;
+  flex: 1 0 100%;
 }
 
 /* Hosting City  */
 
 .HostingCity {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 
 .CityCard {
-    max-width: 325px;
-    width: 60%;
+  max-width: 325px;
+  width: 60%;
 }
 
 .HostingCityText {
-    justify-content: center ;
-    flex: 1 0 100%;
-    justify-content: center;
+  justify-content: center;
+  flex: 1 0 100%;
+  justify-content: center;
 }
 
 .SeeMore {
-    flex: 1 0 100%;
-    justify-content: center;
-    display: flex;
+  flex: 1 0 100%;
+  justify-content: center;
+  display: flex;
 }
 
 /* Hosting Activities  */
 
-.HostingActivities{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    flex-grow: 1;
-    margin-top: 33px;
-    padding-right: 23px;
-    padding-left: 21px;
+.HostingActivities {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-grow: 1;
+  margin-top: 33px;
+  padding-right: 23px;
+  padding-left: 21px;
 }
 
-.ActivitiesHead{
-    display: flex;
-    justify-content: center;
-    flex: 1 0 100%;
-    margin-left: 0;
+.ActivitiesHead {
+  display: flex;
+  justify-content: center;
+  flex: 1 0 100%;
+  margin-left: 0;
 }
 
 .ActivitiesHeadText {
-    margin-bottom: 17px;
+  margin-bottom: 17px;
 }
 
-.CardActivities{
-    width: 22.5%;
+.CardActivities {
+  width: 22.5%;
 }
 
-.ActivitiesTextTitle{
-    margin-left: 18px;
+.ActivitiesTextTitle {
+  margin-left: 18px;
 }
 
-.PictureActivitiesSingle{
-    height: 388px;
+.PictureActivitiesSingle {
+  height: 388px;
 }
 
-.MediumFirst .PictureActivitiesTwin{
-    height: 179px;
+.MediumFirst .PictureActivitiesTwin {
+  height: 179px;
 }
 
 .LittleFirst {
-    margin-bottom: 0px;
-    margin-top: 42px;
+  margin-bottom: 0px;
+  margin-top: 42px;
 }
 
-.LittleFirst .PictureActivitiesTwin{
-    height: 110px;
+.LittleFirst .PictureActivitiesTwin {
+  height: 110px;
 }
 
 .LittleSecond {
-    margin-bottom: 39px;
-    }
-
-.LittleSecond .PictureActivitiesTwin{
-    height: 138px;
+  margin-bottom: 39px;
 }
 
-.MediumSecond{
-    margin-bottom: 0px;
+.LittleSecond .PictureActivitiesTwin {
+  height: 138px;
 }
 
-.MediumSecond .PictureActivitiesTwin{
-    height: 154px;
+.MediumSecond {
+  margin-bottom: 0px;
 }
 
-.Twin{
-    height: auto;
+.MediumSecond .PictureActivitiesTwin {
+  height: 154px;
+}
+
+.Twin {
+  height: auto;
 }

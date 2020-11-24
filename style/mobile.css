@@ -1,497 +1,490 @@
 /*Mobile First*/
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap");
 
-
-body{
-    font-family: 'Raleway', sans-serif;
-    box-sizing: border-box;
-    margin: 0;
+body {
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  margin: 0;
 }
 
-a{
-    text-decoration: none;
-
+a {
+  text-decoration: none;
 }
 
-li{
-    list-style-type: none;
+li {
+  list-style-type: none;
 }
 
-ul{
-    padding-left: 0px;
+ul {
+  padding-left: 0px;
 }
-
 
 /*header*/
 
-header{
-    padding: 0;
-    padding-top: 1.4rem;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+header {
+  padding: 0;
+  padding-top: 1.4rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-.HeaderNav{
-    padding-top: 24px;
-    display: flex;
-    flex-grow: 1;
+.HeaderNav {
+  padding-top: 24px;
+  display: flex;
+  flex-grow: 1;
 }
 
-.HeaderNavLink{
-    width: 100%;
-    text-align: center;    
-    font-size: 1rem;
-    border-bottom: 0.2rem solid #F2F2F2;
-    padding-bottom: 14px;
-    color: black;
+.HeaderNavLink {
+  width: 100%;
+  text-align: center;
+  font-size: 1rem;
+  border-bottom: 0.2rem solid #f2f2f2;
+  padding-bottom: 14px;
+  color: black;
 }
-.Hosting{
-   padding-left: 2px; 
+.Hosting {
+  padding-left: 2px;
 }
-.Activity{
-    padding-right: 4px;
-}
-
-.HeaderNavLink:hover{
-    border-bottom: 0.2rem solid #0065FC ;
-    color: #0065FC;
+.Activity {
+  padding-right: 4px;
 }
 
-.HeaderSignup{
-    width: 50%; 
-    text-align: right;
-    font-size: 1em;
-    font-weight: bold;
-    color: #0065FC;
-    padding: 19px 1.3em 0 0;
+.HeaderNavLink:hover {
+  border-bottom: 0.2rem solid #0065fc;
+  color: #0065fc;
+}
+
+.HeaderSignup {
+  width: 50%;
+  text-align: right;
+  font-size: 1em;
+  font-weight: bold;
+  color: #0065fc;
+  padding: 19px 1.3em 0 0;
 }
 
 .ReserviaImg {
-    padding-top: 3px;
-    padding-left: 20px;
-    }
-    
-
+  padding-top: 3px;
+  padding-left: 20px;
+}
 
 /*Introduction*/
 
-.Introduction{
-    padding-top: 5px;
-    padding-right: 20px;
-    padding-left: 20px;
-    margin-bottom: 36px;
+.Introduction {
+  padding-top: 5px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 36px;
 }
 
-.IntroductionText{
-    padding: 7px 40px 13px 0;
+.IntroductionText {
+  padding: 7px 40px 13px 0;
 }
 
-.font-bold{
-    margin-bottom: 10px;
-    font-size: 22px;
-    font-weight: bold;
+.font-bold {
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
 }
 
-.IntroductionText p{
-    font-size: 16px;
-    padding-top: 2px;
-    margin-top: 0em;
+.IntroductionText p {
+  font-size: 16px;
+  padding-top: 2px;
+  margin-top: 0em;
 }
 
 /*SearchBar*/
 
-.fa-map-marker-alt::before{
-    display: flex;
-    font-size: 1.1em;
-    background-color:#F2F2F2;
-    padding: 18px 20px 18px 20px;
-    border-radius: 20px 0 0 20px;
-    overflow: hidden;
+.fa-map-marker-alt::before {
+  display: flex;
+  font-size: 1.1em;
+  background-color: #f2f2f2;
+  padding: 18px 20px 18px 20px;
+  border-radius: 20px 0 0 20px;
+  overflow: hidden;
 }
 
-#searchBar{
-    display: flex;
-    justify-content: space-between;
-    width: 99%;
-    max-width: 410px;
-    border: 2px solid #F2F2F2;
-    border-radius: 15px;
-    margin-bottom: 31px;
-    margin-top: 5px;
+#searchBar {
+  display: flex;
+  justify-content: space-between;
+  width: 99%;
+  max-width: 410px;
+  border: 2px solid #f2f2f2;
+  border-radius: 15px;
+  margin-bottom: 31px;
+  margin-top: 5px;
 }
 
 #searchField {
-    flex: 1;
-    padding-left: 17px;
-    border: none;
-    text-align: left;
-    font-size: 1.1rem;
-    }
-
-input::placeholder{
-    font-weight: bold;
-    font-size: 1.1rem;
-    color:black;
-    opacity: 1 ;
+  flex: 1;
+  padding-left: 17px;
+  border: none;
+  text-align: left;
+  font-size: 1.1rem;
 }
 
-#desktopButton{
-    display: none;
+input::placeholder {
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: black;
+  opacity: 1;
+}
+
+#desktopButton {
+  display: none;
 }
 
 .button {
-    color: white;
-    background-color: #0065FC;
-    border: none;
-    padding: 15px;
-    padding-left: 18px;
-    padding-right: 18px;
-    border-radius: 15px;
-    font-size: 1em;
+  color: white;
+  background-color: #0065fc;
+  border: none;
+  padding: 15px;
+  padding-left: 18px;
+  padding-right: 18px;
+  border-radius: 15px;
+  font-size: 1em;
 }
 
 .fa-search {
-    padding-left: 1px;
-    padding-right: 1px;
-    padding-top: 4px;
-    padding-bottom: 4px;
-    }
+  padding-left: 1px;
+  padding-right: 1px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
 
 /*Filter*/
 
 .FilterWrapper {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 15px;
-    }
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
 
 .FilterTitle {
-    flex: 1 0 100%;
-    font-weight: bold;
-    margin-right: 200px;
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-size: 1.1rem;
-    padding-left: 2px;
+  flex: 1 0 100%;
+  font-weight: bold;
+  margin-right: 200px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+  padding-left: 2px;
 }
 
-.FilterSelection{
-    display: inline-flex;
-    border: 2px solid #F2F2F2;
-    margin-bottom: 14px;
-    margin-right: 9.4px;
-    border-radius: 25px;
+.FilterSelection {
+  display: inline-flex;
+  border: 2px solid #f2f2f2;
+  margin-bottom: 14px;
+  margin-right: 9.4px;
+  border-radius: 25px;
 }
 
-.FilterSelection:focus{  
-    background-color: #0065FC;
-    color: #DEEBFF;
+.FilterSelection:focus {
+  background-color: #0065fc;
+  color: #deebff;
 }
 
-.FilterOverview:focus .FilterSelection{  
-    background-color: #0065FC;  
+.FilterOverview:focus .FilterSelection {
+  background-color: #0065fc;
 }
 
-.FilterOverview:focus .FilterText{
-    color: #DEEBFF;
-
+.FilterOverview:focus .FilterText {
+  color: #deebff;
 }
 
-.FilterWrapper .fas{
-    color: #0065FC;
-    background-color:#DEEBFF;
-    padding: 15px;
-    border-radius: 100%;
-    width: 20px;
-    height: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.FilterWrapper .fas {
+  color: #0065fc;
+  background-color: #deebff;
+  padding: 15px;
+  border-radius: 100%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.fa, .fas {
-    margin: -2px;
+.fa,
+.fas {
+  margin: -2px;
 }
 
-.FilterText{
-    align-self: center;
-    padding-left: 12px;
-    padding-right: 18px;
-    color: black;
-    font-weight: bold;
+.FilterText {
+  align-self: center;
+  padding-left: 12px;
+  padding-right: 18px;
+  color: black;
+  font-weight: bold;
 }
 
-.FilterFooter{
-    display: flex;
-    flex-grow: 1;
+.FilterFooter {
+  display: flex;
+  flex-grow: 1;
 }
 
-
-.FilterFooter .fas{
-    color:  #0065FC;
-    font-size: 11px;
-    border: 2px solid #F2F2F2;
-    padding: 5px 7px;
-    width: 13px;
-    height: 13px;
-    border-radius: 50%;
-    text-align: center;
-    margin: -2px;
+.FilterFooter .fas {
+  color: #0065fc;
+  font-size: 11px;
+  border: 2px solid #f2f2f2;
+  padding: 5px 7px;
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  text-align: center;
+  margin: -2px;
 }
 
-.fa{
-    margin: -2px;
+.fa {
+  margin: -2px;
 }
 
-.FilterFooterText{
-    padding-right: 3px;
-    padding-left: 12px;
-    padding-top: 3px;
-    font-size: 1rem;
-    text-align: justify;
+.FilterFooterText {
+  padding-right: 3px;
+  padding-left: 12px;
+  padding-top: 3px;
+  font-size: 1rem;
+  text-align: justify;
 }
 
 /*Selection*/
 
-.Selection{
-    background-color: #F2F2F2;
-    margin-bottom: 47px;
+.Selection {
+  background-color: #f2f2f2;
+  margin-bottom: 47px;
 }
 
-    /*Popular Hosting*/
+/*Popular Hosting*/
 
-.HostingPopular{
-    margin-bottom: 37px;
+.HostingPopular {
+  margin-bottom: 37px;
 }
 
-.HostingPopularText{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin: 0 20px;
+.HostingPopularText {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 20px;
 }
 
-.TheMostPopularsText{
-    margin: 16px 0;
-    font-size: 1.4rem;
+.TheMostPopularsText {
+  margin: 16px 0;
+  font-size: 1.4rem;
 }
 
-.HostingPopularIcon{
-    margin: 20px 0;
-    object-fit: cover;
+.HostingPopularIcon {
+  margin: 20px 0;
+  object-fit: cover;
 }
 
-.PopularCard{
-    margin: 10px 0 10px 0;
+.PopularCard {
+  margin: 10px 0 10px 0;
 }
 
-.Popular{
-    display: flex;
-    justify-content: space-between;
-    background-color: white;
-    margin: 0 20px;
-    border: 5px solid white;
-    border-radius: 20px;
+.Popular {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  margin: 0 20px;
+  border: 5px solid white;
+  border-radius: 20px;
 }
 
-.ImagePopular{
-    object-fit: cover;
-    width: 39%;
-    min-width: 39%;
-    height: 134px;
-    padding: 0;
-    border-radius: 15px 0 0 15px;
+.ImagePopular {
+  object-fit: cover;
+  width: 39%;
+  min-width: 39%;
+  height: 134px;
+  padding: 0;
+  border-radius: 15px 0 0 15px;
 }
 
-.PopularText{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    font-size: 14px;
-    padding: 10px 20px;
-    padding-right: 35px;
-    padding-top: 11px;
-    padding-bottom: 8px;
-    color: black;
-    width: 61%;
-
+.PopularText {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 14px;
+  padding: 10px 20px;
+  padding-right: 35px;
+  padding-top: 11px;
+  padding-bottom: 8px;
+  color: black;
+  width: 61%;
 }
 
-.PopularTextTitle{
-    color: black;
-    margin: 0;
-    margin-bottom: 7px;
+.PopularTextTitle {
+  color: black;
+  margin: 0;
+  margin-bottom: 7px;
 }
 
-.PopularTextPrice{
-    font-weight: normal;
-    font-size: 14px;
-    text-align: justify;
-    margin: 0;
-       
+.PopularTextPrice {
+  font-weight: normal;
+  font-size: 14px;
+  text-align: justify;
+  margin: 0;
 }
 
-.FullStars{
-    margin: 0;
-    font-size: 11px;
-    color: #0065FC;
+.FullStars {
+  margin: 0;
+  font-size: 11px;
+  color: #0065fc;
 }
 
-.fa-star{
-    margin: 0;
-    margin-left: -1px;
+.fa-star {
+  margin: 0;
+  margin-left: -1px;
 }
 
-.grey{
-    color: #F2F2F2;
+.grey {
+  color: #f2f2f2;
 }
 
-    /*City Hosting*/
+/*City Hosting*/
 
-.HostingCity{
-    padding: 0 20px;
-    background-color: white;
+.HostingCity {
+  padding: 0 20px;
+  background-color: white;
 }
 
-.CityText{
-    margin: 14px 0 18px ;
-    padding-top: 2px;
-    font-size: 22px;
+.CityText {
+  margin: 14px 0 18px;
+  padding-top: 2px;
+  font-size: 22px;
 }
 
-    /*City Card*/
+/*City Card*/
 
-.CityCard{
-    box-shadow: 0 0 15px lightgray;
-    border-radius: 18px;
-    margin-bottom: 14px;
-   
+.CityCard {
+  box-shadow: 0 0 15px lightgray;
+  border-radius: 18px;
+  margin-bottom: 14px;
 }
 
-.City{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: white;
-    margin: 0;
-    border: 5px solid white;
-    border-radius: 20px;
+.City {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  margin: 0;
+  border: 5px solid white;
+  border-radius: 20px;
 }
 
-.ImageCity{
-    object-fit: cover;
-    height: 113px;
-    padding: 0;
-    border-radius: 15px 15px 0 0;
+.ImageCity {
+  object-fit: cover;
+  height: 113px;
+  padding: 0;
+  border-radius: 15px 15px 0 0;
 }
 
-.CitySelectionText{
-    padding: 8px 9px 2px 11px;
+.CitySelectionText {
+  padding: 8px 9px 2px 11px;
 }
 
-.CityTextTitle{
-    color: black;
-    margin: 2px 0;
-    font-size: 16px;
+.CityTextTitle {
+  color: black;
+  margin: 2px 0;
+  font-size: 16px;
 }
 
-.CityTextPrice{
-    color: black;
-    margin: 6px 0 7px 0;
-    font-size: 14px;
+.CityTextPrice {
+  color: black;
+  margin: 6px 0 7px 0;
+  font-size: 14px;
 }
 
-.FullStarsCity{
-    padding: 0;
-    font-size: 12px;
+.FullStarsCity {
+  padding: 0;
+  font-size: 12px;
 }
 
-.FullStarsCity .blue{
-    color: #0065FC;
-    margin: 0 -1.2px;
+.FullStarsCity .blue {
+  color: #0065fc;
+  margin: 0 -1.2px;
 }
 
-.SeeMoreText{
-    font-size: 1.1rem;
-    font-weight: bold;
-    margin-bottom: 0px;
-    margin-top: 34px;
+.SeeMoreText {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 0px;
+  margin-top: 34px;
 }
 
 /* Activities */
 
-.HostingActivities{
-    padding: 0 20px;
-    background-color: white;
+.HostingActivities {
+  padding: 0 20px;
+  background-color: white;
 }
 
-.ActivitiesHeadText{
-    margin: 30px 0 20px ;
-    font-size: 1.4rem;
+.ActivitiesHeadText {
+  margin: 30px 0 20px;
+  font-size: 1.4rem;
 }
 
 /* Activities Card */
 
-.Single, .CardActivitiesTwin{
-    box-shadow: 0 0 15px lightgray;
-    border-radius: 25px;
-    margin-bottom: 21px;
-    margin-top: 6px;
+.Single,
+.CardActivitiesTwin {
+  box-shadow: 0 0 15px lightgray;
+  border-radius: 25px;
+  margin-bottom: 21px;
+  margin-top: 6px;
 }
 
-.ActivitiesSelectionCard{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    background-color: white;
-    margin: 0;  
-    border-radius: 20px;
+.ActivitiesSelectionCard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  margin: 0;
+  border-radius: 20px;
 }
 
-.PictureActivitiesTwin, .PictureActivitiesSingle{
-    object-fit: cover;
-    height: 135px;
-    padding: 0;
-    border-radius: 19px 19px 0 0
+.PictureActivitiesTwin,
+.PictureActivitiesSingle {
+  object-fit: cover;
+  height: 135px;
+  padding: 0;
+  border-radius: 19px 19px 0 0;
 }
 
-.ActivitiesTextTitle{
-    color: black;
-    margin: 20px 0 18px 20px;
-    font-size: 16px;
+.ActivitiesTextTitle {
+  color: black;
+  margin: 20px 0 18px 20px;
+  font-size: 16px;
 }
+
 /*Footer*/
 
-footer{
-    padding: 20px;
-    padding-left: 29px;
-    padding-top: 16px;
-    background-color: #F2F2F2;
+footer {
+  padding: 20px;
+  padding-left: 29px;
+  padding-top: 16px;
+  background-color: #f2f2f2;
 }
 
-.FooterLink{
-    margin-bottom: 37px;
+.FooterLink {
+  margin-bottom: 37px;
 }
 
-
-.FooterSubTittle{
-    padding: 5px 0;
-    font-size: 1rem;
-    
+.FooterSubTittle {
+  padding: 5px 0;
+  font-size: 1rem;
 }
 
-.footerLink, h2{
-    font-size: 18px;
-    margin: 30px 0 15px 0;
+.footerLink,
+h2 {
+  font-size: 18px;
+  margin: 30px 0 15px 0;
 }
 
-li{
-    font-size: 15px;
+li {
+  font-size: 15px;
 }
 
-.Support{
-    margin-top: 47px;
+.Support {
+  margin-top: 47px;
 }
