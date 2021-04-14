@@ -6,6 +6,7 @@ In this scenario, I am a trainee in a company that offers a holiday planning too
 
 The mission I was given was to integrate the graphic model using only HTML and CSS, with certain technical constraints and functionalities.
 
+[GitHuB Pages](https://moutinhoalexandre.github.io/MoutinhoAlexandre_2_22102020/index.html)
 
 # Specifications
 
